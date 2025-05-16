@@ -119,6 +119,7 @@ rm -fr pptp.sh
 IP=`curl -s https://api.ipify.org`
 
 echo "${G}=========================================${R}"
+echo "PPTP script By Thet Htoo Swe"
 echo "server ip address: $IP"
 echo ""
 echo "user = $user   pass = $pass"
