@@ -1,5 +1,5 @@
 #!/bin/sh
-# Auto Setup PPTP VPN Server #
+# Auto Setup PPTP VPN Server By Thet Htoo Swe#
 # By Github/Saleh7 #
 
 ## How to install a VPN Server (PPTP) on Debian/Ubuntu Linux VPS
@@ -20,7 +20,7 @@ R=`tput sgr0`
 
 help() {
 echo " 
-  ${b}${A}# Auto Setup PPTP VPN Server #${R}
+  ${b}${A}# Auto Setup PPTP VPN Server By Thet Htoo Swe#${R}
 
 Use: pptp.sh ${E}[OPTION]${R}
  ${G}-u${R}, --username  Enter the Username
@@ -29,7 +29,7 @@ Password Make sure it's more than ${E}8${R} characters
 
  Example:${G} sudo bash pptp.sh -u${R} ${E}vpn${R} ${G}-p${R} ${E}mypass${R}
 
- ${C}Default:${R}${G} sudo bash pptp.sh${R}${C} | Username:vpn01 Pssword:pass1231${R}
+ ${C}Default:${R}${G} sudo bash pptp.sh${R}${C} | Username:admin Pssword:ThetHtooSwe${R}
 
  ------------------------------------
  | Add More Users | Edit a File:    |
